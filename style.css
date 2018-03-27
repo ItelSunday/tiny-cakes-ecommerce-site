@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  background-image: image('../images/cupcake-dots.jpg';)
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  color: #fff;
+  background-color: #f47c98cc;
+  box-shadow: 0 0 10px 0 #0000001a;
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-item {
+  color: black;
+}
+
+.main-header::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 12px;
+  width: 100%;
+  background: repeating-linear-gradient(
+    -45deg,
+    #cb5a5e,
+    #cb5a5e 12px,
+    transparent 10px,
+    transparent 23px
+  );
+}
