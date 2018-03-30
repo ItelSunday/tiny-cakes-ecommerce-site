@@ -3,18 +3,29 @@
 }
 
 .jumbotron {
-  background-image: image('../images/cupcake-dots.jpg';)
+  background-image: url('/images/cupcakes-dots.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  /*Don't forget to crop or use height instead*/
 }
+
 .navbar {
   color: #fff;
-  background-color: #f47c98cc;
+  /* background-color: #f47c98cc; */
   box-shadow: 0 0 10px 0 #0000001a;
   padding: 10px 0;
 }
 
-.navbar-nav .nav-item {
+.nav .justify-content-center {
+  justify-content: center;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.nav .nav-item {
   color: black;
 }
 
@@ -31,4 +42,18 @@
     transparent 10px,
     transparent 23px
   );
+}
+.inner-custom {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.inner-custom:nth-of-type(1) {
+  background-image: url('./images/coffee-ground.jpg');
+}
+.inner-custom:nth-of-type(2) {
+  background-image: url('./images/coffee-latte.jpg');
+}
+.inner-custom:nth-of-type(3) {
+  background-image: url('./images/cookie-chip.jpg');
 }
