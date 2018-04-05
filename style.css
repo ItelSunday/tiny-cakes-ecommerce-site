@@ -10,6 +10,12 @@
   /*Don't forget to crop or use height instead*/
 }
 
+.jumbotron:nth-of-type(2) {
+  font-family: 'Rancho', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
 .navbar {
   color: transparent;
   /* background-color: #f47c98cc; */
@@ -43,10 +49,10 @@
     transparent 23px
   );
 }
+/*carousel*/
 .inner-custom {
   height: 400px;
   background-size: cover;
-
   background-position: center;
 }
 .inner-custom:nth-of-type(1) {
@@ -58,7 +64,7 @@
 .inner-custom:nth-of-type(3) {
   background-image: url('./images/cookie-chip.jpg');
 }
-/*home subsection*/
+/*subsection*/
 .home-subsection {
   bottom: 0;
   position: absolute;
@@ -66,8 +72,7 @@
   background: rgba(0, 0, 0, 0.5);
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .subsection-item {
@@ -83,3 +88,38 @@ h2.home-title {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
+
+/*Flavors*/
+.card > .card-img-top{
+  width: 25%;
+}
+
+}
+
+/*History*/
+.main-story {
+  background-color: #f7f7f7;
+}
+.story {
+  font-family: 'Rancho', sans-serif;
+  color: #579c95;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}
+.container-pink {
+  background-color: #e6748dbf;
+  border-color: #a96472;
+  border-width: 0 0 5px 0;
+  border-style: solid;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 2em 0 2em;
+}
+.container-pink > .caption-body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding: 0 50px;
+}
+
