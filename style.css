@@ -92,7 +92,27 @@ h2.home-title {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
-/*Flavors*/
+/*About Us*/
+.long-title {
+  font-family: 'Rancho', sans-serif;
+  font-size: 34px;
+  color: #494949;
+}
+.long-title > span {
+  font-family: 'Rancho', sans-serif;
+  color: #fc7790;
+}
+.about-us > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #494949;
+}
+.about-us > .sign {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 34px;
+  color: #494949;
+}
+/*Our Baked Goods*/
 /* .card {
   border-radius: 10%;
 } */
