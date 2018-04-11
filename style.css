@@ -7,7 +7,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*Don't forget to crop or use height instead*/
 }
 
 .jumbotron {
@@ -30,17 +29,12 @@
 }
 
 .bg-light {
-  background-color: rgba(99, 25, 25, 0.25) !important;
+  background-color: rgba(255, 192, 203, 0.5) !important;
 }
 .main-header {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  text-align: center;
-  position: fixed;
   width: 100%;
-  /* background-color: #f47c98cc; */
-  /* box-shadow: 0 0 10px 0 #0000001a;
-  padding: 10px 0; */
 }
 
 .justify-content-center {
@@ -128,10 +122,7 @@ h2.home-title {
   font-size: 34px;
   color: #494949;
 }
-/*Our Baked Goods*/
-/* .card {
-  border-radius: 10%;
-} */
+/*Baked Goods*/
 .cupcakes {
   padding-bottom: 40px;
 }
@@ -212,15 +203,3 @@ footer {
 i {
   height: 100%;
 }
-/* .last {
-  padding: 25px 0;
-}
-.col-3 > .icon {
-  color: #ffff;
-  background-color: #cb5a5e;
-  font-size: 20px;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  padding: 30px;
-} */
